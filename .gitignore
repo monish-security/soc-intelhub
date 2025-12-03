@@ -1,0 +1,21 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore local virtual environment
+venv/
+
+# Ignore downloaded IOC reports
+*.txt
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
