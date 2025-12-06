@@ -12,7 +12,7 @@ import streamlit as st
 st.set_page_config(page_title="SOC IntelHub — IOC Triage Dashboard", layout="wide")
 load_dotenv()
 VT_API_KEY = os.getenv("VT_API_KEY")
-ABUSE_API_KEY = os.getenv("ABUSE_API_KEY")
+ABUSE_API_KEY = os.getenv("ABUSEIPDB_API_KEY")
 OTX_API_KEY = os.getenv("OTX_API_KEY")
 
 # -------------------------
